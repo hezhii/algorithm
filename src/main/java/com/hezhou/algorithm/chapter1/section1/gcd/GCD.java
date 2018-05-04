@@ -1,4 +1,4 @@
-package com.hezhou.algorithm.gcd;
+package com.hezhou.algorithm.chapter1.section1.gcd;
 
 /**
  * 求两个正整数的最大公约数
