@@ -33,7 +33,29 @@
 </dependencies>
 ```
 
-## 内容说明
+## 如何使用
+
+### 克隆代码并编译
+
+```bash
+$ git clone https://github.com/hezhii/algorithm.git
+$ cd algorithm
+$ mvn compile
+```
+
+### 测试代码
+
+可以使用 maven 运行 main class
+
+```bash
+$ mvn exec:java -Dexec.mainClass="com.hezhou.algorithm.chapter1.section1.Ex03" -Dexec.args=" 1 2 1"
+```
+
+运行结果如下：
+
+![](./.github/mvn_exec_result.png)
+
+### 笔记内容
 
 项目以章节为单位，包含该章节中的学习笔记、习题解答以及代码。其中，笔记和习题解答等在对应章节目录下的 README 中。笔记主要通过自问自答的方式体现，记录我不懂或者记不清的问题并自己作出解答。如果某个知识点我已经掌握并清晰的记得，则不会记录到笔记中。
 
