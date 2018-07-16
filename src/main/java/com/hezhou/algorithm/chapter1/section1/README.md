@@ -79,3 +79,24 @@
 运行时异常即未检查异常，RuntimeException UnCatchException，运行时异常表示虚拟机的正常操作中可能遇到的异常，如：NullPointerException(空指针异常)、ndexOutOfBoundsException(下标越界异常)。
 
 非运行时异常为受检查异常：从程序语法角度讲是必须进行处理的异常，如果不处理，程序就不能编译通过。如IOException、SQLException等以及用户自定义的Exception异常，一般情况下不自定义受检查异常。
+
+## 习题
+
+**1.给出一下表达式的值**
+
+```
+( 0 + 15 ) / 2 = 7
+2.0e-6 * 100000000.1 = 200.0000002
+true && false || true && true = true
+```
+
+**2.给出一下表达式的类型和值**
+
+```
+(1 + 2.236) / 2 = (doubule)1.618
+1 + 2 + 3 + 4.0 = (doubule)10.0
+4.1 >= 4 = (boolean)true
+1 + 2 + "3" = (string)33
+```
+
+3. [代码](./Ex03.java)

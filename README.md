@@ -6,7 +6,7 @@
 
 《算法》(第四版)提供了配套的[网站](https://algs4.cs.princeton.edu/home/)，网站上简要的介绍了书中的内容，提供了课后习题的解答。同时，还提供了书中的源码、工具库、测试素材等供下载使用。
 
->[书籍官网](https://introcs.cs.princeton.edu/java/home/)&ensp;[源码及资源下载](https://algs4.cs.princeton.edu/code/)
+>[书籍官网](https://algs4.cs.princeton.edu/home/)&ensp;[源码及资源下载](https://algs4.cs.princeton.edu/code/)
 
 ## 导入官方库
 
