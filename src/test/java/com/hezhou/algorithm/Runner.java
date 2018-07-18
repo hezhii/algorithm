@@ -8,6 +8,6 @@ import org.junit.Test;
 public class Runner {
   @Test
   public void test() {
-    System.out.println(4.1 >= 4);
+    System.out.println((char) ('a' + 4));
   }
 }
