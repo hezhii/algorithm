@@ -116,3 +116,5 @@ true && false || true && true = true
 18. [代码](./Ex18.java)
 19. [代码](./Ex19.java)
 20. [代码](./Ex20.java)
+21. [代码](./Ex21.java)
+22. [代码](./Ex22.java)
