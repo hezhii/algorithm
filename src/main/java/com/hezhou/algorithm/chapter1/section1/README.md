@@ -139,3 +139,5 @@ true && false || true && true = true
 22.[代码](./Ex22.java)
 
 23.[代码](./Ex23.java)
+
+24.[代码](./Ex24.java)
