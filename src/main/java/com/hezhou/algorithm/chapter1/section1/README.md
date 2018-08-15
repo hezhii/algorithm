@@ -161,3 +161,11 @@ true && false || true && true = true
 27.递归调用的次数类似一个二叉树，次数呈指数增长。差不多在 2^50~2^100 之间，具体也没算。我们可以直接使用二项分布公式：`P(ξ=K)= C(n,k) * p^k * (1-p)^(n-k)`，[代码](./Ex27.java)
 
 28.数组去重。[代码](./Ex28.java)
+
+29.[代码](./Ex29.java)
+
+30.[代码](./Ex30.java)
+
+31.[代码](./Ex31.java)
+
+32.[代码](./Ex32.java)，测试命令 `mvn exec:java -Dexec.mainClass="com.hezhou.algorithm.chapter1.section1.Ex32" -Dexec.args="5 1.0 6.0" < ./data/doubleNumbers.txt`
