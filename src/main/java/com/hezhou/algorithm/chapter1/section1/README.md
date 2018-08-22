@@ -171,3 +171,7 @@ true && false || true && true = true
 32.[代码](./Ex32.java)，测试命令 `mvn exec:java -Dexec.mainClass="com.hezhou.algorithm.chapter1.section1.Ex32" -Dexec.args="5 1.0 6.0" < ./data/doubleNumbers.txt`
 
 33.[代码](./Ex33.java)
+
+34.略
+
+35.[代码](./Ex35.java)；N 差不多要为 50000 时才符合概率分布。
