@@ -177,3 +177,5 @@ true && false || true && true = true
 35.[代码](./Ex35.java)；N 差不多要为 50000 时才符合概率分布。
 
 36.[代码](./ShuffleTest.java)。打印出的表格中：{i,j} 表示下标为 i 的元素，在打乱后，落在下标为 j 处的次数。
+
+37.[代码](./Ex37.java)
