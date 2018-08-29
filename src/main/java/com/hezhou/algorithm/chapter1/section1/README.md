@@ -179,3 +179,7 @@ true && false || true && true = true
 36.[代码](./ShuffleTest.java)。打印出的表格中：{i,j} 表示下标为 i 的元素，在打乱后，落在下标为 j 处的次数。
 
 37.[代码](./Ex37.java)
+
+38.二分查找：`mvn exec:java -Dexec.mainClass="com.hezhou.algorithm.chapter1.section1.BinarySearch" -Dexec.args="data/largeW.txt" < ./data/largeT.txt`，耗时：`Binary search time: 25470ms`;
+
+暴力查找：`mvn exec:java -Dexec.mainClass="com.hezhou.algorithm.chapter1.section1.BruteForceSearch" -Dexec.args="data/largeW.txt" < ./data/largeT.txt`，耗时：可以说相当成了，洗个澡回来还在跑，不知道要跑到什么时候。
