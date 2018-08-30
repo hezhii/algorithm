@@ -183,3 +183,5 @@ true && false || true && true = true
 38.二分查找：`mvn exec:java -Dexec.mainClass="com.hezhou.algorithm.chapter1.section1.BinarySearch" -Dexec.args="data/largeW.txt" < ./data/largeT.txt`，耗时：`Binary search time: 25470ms`;
 
 暴力查找：`mvn exec:java -Dexec.mainClass="com.hezhou.algorithm.chapter1.section1.BruteForceSearch" -Dexec.args="data/largeW.txt" < ./data/largeT.txt`，耗时：可以说相当成了，洗个澡回来还在跑，不知道要跑到什么时候。
+
+39.[代码](./Ex39.java)，随着 N 增加，重复的数开始变多。执行速度比我预计的快，是我低估计算机了，`T = 1` 时耗时大约在 500 ms。
