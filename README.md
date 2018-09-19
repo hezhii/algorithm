@@ -2,7 +2,7 @@
 
 这个项目是我在阅读《算法》(第四版)一书中的积累，包括：笔记、习题解答、算法代码等。
 
-项目使用的开发工具是 [VSCode](https://code.visualstudio.com/)，基于 [Maven](https://maven.apache.org/) 构建，关于 VSCode 如何搭建 Java 开发环境可以参考[我的个人博客](http://blog.whezh.com/vscode-java/)。
+~~项目使用的开发工具是 [VSCode](https://code.visualstudio.com/)~~（目前已经切换到 IntelliJ IDEA），关于 VSCode 如何搭建 Java 开发环境可以参考[我的个人博客](http://blog.whezh.com/vscode-java/)，基于 [Maven](https://maven.apache.org/) 构建。
 
 《算法》(第四版)提供了配套的[网站](https://algs4.cs.princeton.edu/home/)，网站上简要的介绍了书中的内容，提供了课后习题的解答。同时，还提供了书中的源码、工具库、测试素材等供下载使用。
 
@@ -17,20 +17,22 @@
 `algs4.jar` 托管在 [Bintray](https://bintray.com/algs4/maven/algs4/) 上，可以使用 Maven 或者 Gradle 导入依赖。此项目中通过 Maven 添加了依赖，`pom.xml` 中相应的配置如下：
 
 ```xml
-<repositories>
-  <repository>
-    <id>bintray-algs4-maven</id>
-    <name>bintray</name>
-    <url>https://dl.bintray.com/algs4/maven</url>
-  </repository>
-</repositories>
-<dependencies>
-  <dependency>
-    <groupId>edu.princeton.cs</groupId>
-    <artifactId>algs4</artifactId>
-    <version>1.0.3</version>
-  </dependency>
-</dependencies>
+<project>
+  <repositories>
+    <repository>
+      <id>bintray-algs4-maven</id>
+      <name>bintray</name>
+      <url>https://dl.bintray.com/algs4/maven</url>
+    </repository>
+  </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>edu.princeton.cs</groupId>
+      <artifactId>algs4</artifactId>
+      <version>1.0.3</version>
+    </dependency>
+  </dependencies>
+</project>
 ```
 
 ## 如何使用
