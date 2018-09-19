@@ -47,7 +47,7 @@ $ mvn compile
 
 ### 测试代码
 
-可以使用 maven 运行 main class
+1.可以使用 maven 运行 main class
 
 ```bash
 $ mvn exec:java -Dexec.mainClass="com.hezhou.algorithm.chapter1.section1.Ex03" -Dexec.args=" 1 2 1"
@@ -56,6 +56,12 @@ $ mvn exec:java -Dexec.mainClass="com.hezhou.algorithm.chapter1.section1.Ex03" -
 运行结果如下：
 
 ![](./.github/mvn_exec_result.png)
+
+2.可以使用 `java` 命令运行，需要指定 classpath
+
+```bash
+$ java -cp target/classes com.hezhou.algorithm.chapter1.section1.Ex03
+```
 
 ### 笔记内容
 
