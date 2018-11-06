@@ -71,3 +71,4 @@ $ java -cp target/classes com.hezhou.algorithm.chapter1.section1.Ex03
 
 - 第一章 基础
   - [1.1 基础编程模型](https://github.com/hezhii/algorithm/tree/master/src/main/java/com/hezhou/algorithm/chapter1/section1)
+  - [1.2 数据抽象](https://github.com/hezhii/algorithm/tree/master/src/main/java/com/hezhou/algorihtm/chapter1/section2)
