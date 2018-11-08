@@ -1,4 +1,4 @@
-package com.hezhou.algorihtm.chapter1.section2;
+package com.hezhou.algorithm.chapter1.section2;
 
 import edu.princeton.cs.algs4.StdOut;
 
